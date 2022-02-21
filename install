@@ -5,11 +5,9 @@ sudo apt install qemu qemu-kvm libvirt-bin bridge-utils virtinst
 sudo adduser $USER libvirt
 su - ${USER}
 
-sudo apt update
-sudo apt install python-paramiko python-pil novnc python-libvirt python-ethtool python-ipaddr python-guestfs libguestfs-tools spice-html5 python-magic keyutils libnfsidmap2 libtirpc1 nfs-common rpcbind python-configobj python-parted -y
-
 sudo add-apt-repository universe
 sudo apt update
+sudo apt install python-paramiko python-pil novnc python-libvirt python-ethtool python-ipaddr python-guestfs libguestfs-tools spice-html5 python-magic keyutils libnfsidmap2 libtirpc1 nfs-common rpcbind python-configobj python-parted -y
 
 sudo apt install nginx -y
 
