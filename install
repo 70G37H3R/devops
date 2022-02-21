@@ -1,5 +1,5 @@
-sudo apt install cpu-checker
-$kvm-ok
+sudo apt install -y cpu-checker
+kvm-ok
 
 sudo apt update
 sudo apt install -y qemu qemu-kvm libvirt-bin bridge-utils virtinst
