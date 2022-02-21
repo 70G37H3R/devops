@@ -14,7 +14,7 @@ pip3 install distro
 pip3 install cheetah3
 
 wget https://github.com/kimchi-project/wok/archive/3.0.0.tar.gz
-tar xfzv 3.0.0.tar.gz
+tar -xfzv 3.0.0.tar.gz
 
 cd wok-3.0.0
 sudo ./autogen.sh --system
@@ -30,7 +30,7 @@ pip3 install -r requirements-dev.txt
 cd ../
 
 wget https://github.com/kimchi-project/kimchi/archive/3.0.0.tar.gz
-tar xfzv 3.0.0.tar.gz
+tar -xfzv 3.0.0.tar.gz
 
 cd kimchi-3.0.0
 sudo ./autogen.sh --system
