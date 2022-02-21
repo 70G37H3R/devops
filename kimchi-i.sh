@@ -49,3 +49,6 @@ cd ../
 sudo systemctl daemon-reload
 sudo systemctl enable wokd
 sudo systemctl restart wokd
+
+cd /var/lib/kimchi/isos
+sudo wget http://releases.ubuntu.com/18.04.1/ubuntu-18.04.1-live-server-amd64.iso
